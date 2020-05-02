@@ -1,0 +1,11 @@
+/* table{
+    width:60%;
+    counter-reset: serial-number;
+}
+table tr{
+    counter-increment: serial-number;
+
+}
+table tr td:first-child::before{
+    content: counter(serial-number) ".";
+} */
